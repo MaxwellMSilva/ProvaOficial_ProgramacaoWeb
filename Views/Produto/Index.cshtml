@@ -1,0 +1,35 @@
+﻿<div>
+    <div class="row" style="padding: 12px">
+        <div class="col">
+            <input type="text" class="form-control" placeholder="Código do Produto" required>
+        </div>
+        <div class="col">
+            <input type="text" class="form-control" placeholder="Preço" required>
+        </div>
+    </div>
+
+    <div class="mb-3" style="padding: 12px">
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Descrição" required></textarea>
+    </div>
+
+    <div class="row" style="padding: 12px">
+        <div class="col">
+            <select class="form-control">
+                <option>Infantil</option>
+                <option>Jovem</option>
+                <option>Adulto</option>
+            </select>
+        </div>
+        
+        <div class="col">
+            <input type="text" class="form-control" placeholder="Observação" aria-label="Last name">
+        </div>
+    </div>
+
+    <div class="col-auto" style="padding: 12px">
+        <button type="submit" class="btn btn-outline-success">Confirmar</button>
+    </div>
+    <div class="col-md-1 col-sm-12" style="padding: 12px">
+        <a class="btn btn-outline-danger" asp-controller="Home" asp-action="Index">Voltar</a>
+    </div>
+</div>
